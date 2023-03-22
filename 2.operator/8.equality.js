@@ -7,19 +7,19 @@ console.log(2 == 2);
 console.log(2 != 2);
 console.log(2 != 3);
 console.log(2 == 3);
-console.log(2 == '2');
-console.log(2 === '2'); // ✨
+console.log(2 == "2");
+console.log(2 === "2"); // ✨
 console.log(true == 1);
 console.log(true === 1);
 console.log(false == 0);
 console.log(false === 0);
 console.clear();
-
+console.log("--------------");
 const obj1 = {
-  name: 'js',
+  name: "js",
 };
 const obj2 = {
-  name: 'js',
+  name: "js",
 };
 
 console.log(obj1 == obj2);
